@@ -1,0 +1,28 @@
+.admin__control-grouped-time > .admin__field-time.admin__field > .admin__field-control {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.admin__control-grouped-time > .admin__field-time {
+    white-space: nowrap;
+    width: 1px;
+}
+
+.admin__control-grouped-time > .admin__field-time + .admin__field-time > .admin__field-label {
+    float: left;
+}
+
+.admin__control-grouped-time > .admin__field-time + .admin__field:last-child {
+    width: auto;
+}
+
+.admin__control-grouped-time > .admin__field-group-show-label > .admin__field-label {
+    margin-right: 10px;
+}
+
+.admin__control-grouped.admin__control-grouped-time > .admin__field:nth-child(n + 2) {
+    padding-left: 10px;
+}
+
+

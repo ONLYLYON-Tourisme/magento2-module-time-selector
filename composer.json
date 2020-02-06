@@ -1,0 +1,26 @@
+{
+    "name": "oltc/module-time-selector",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {"name": "Franck PERRIN", "email": "fperrin@lyon-france.com"}
+    ],
+    "description": "Adds attribute type time selector with custom UI",
+    "keywords": [
+        "magento",
+        "magento2",
+        "product_attribute",
+        "time"
+    ],
+    "require": {
+        "magento/module-catalog": ">=103.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OLTC\\TimeSelector\\": ""
+        }
+    }
+}
